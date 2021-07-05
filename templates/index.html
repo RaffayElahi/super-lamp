@@ -1,0 +1,15 @@
+{%extends 'base.html' %}
+{%block title%}About{%endblock title%}
+{% block body %}  
+<div class="slider">
+    <img src="https://source.unsplash.com/1680x700/?nature,water" alt="" class="slider-image first" id="slid-image-a">
+    <img src="https://source.unsplash.com/1680x700/?ecommerce,business" alt="" class="slider-image second" id="slid-image-b">
+    <img src="https://source.unsplash.com/1680x700/?market,products" alt="" class="slider-image third" id="slid-image-c">
+</div>
+<div class="checkbox">
+    <button type="button" class="button a" id="button-a-slide"></button>
+    <button type="button" class="button b" id="button-b-slide"></button>
+    <button type="button" class="button c" id="button-c-slide"></button>
+</div>
+
+{% endblock body%}
